@@ -7,7 +7,7 @@ body {
    padding: 0;
    color: #333;
    background-color: #689;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
    font-size: 14px;
    line-height: 16px;
 }
@@ -121,22 +121,22 @@ label {
 
 ::-webkit-input-placeholder {
    color: #ccc;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 
 :-moz-placeholder {
    color: #ccc;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 
 ::-moz-placeholder {
    color: #ccc;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 
 :-ms-input-placeholder {
    color: #ccc;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 
 .Missing label { color: #d66; }
@@ -426,7 +426,7 @@ input[type="checkbox"]:checked + label:hover {
    background-color: #666;
    border: none;
    border-bottom: solid 2px #666;
-   font-family: monospace;
+   font-family: Verdana,Helvetica,Arial,sans-serif;
    height: 14px;
    word-wrap: break-word;
    overflow-wrap: break-word;

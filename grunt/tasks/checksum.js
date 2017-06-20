@@ -11,6 +11,7 @@ module.exports = function (grunt) {
     var done = this.async();
     var crypto = require('crypto');
     var fs = require('fs');
+    var writeSum = null;
 
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
@@ -43,7 +44,7 @@ module.exports = function (grunt) {
     };
 
     // Write to checksum file.
-    var writeSum = function (src, dest, sum) {
+    writeSum = function (src, dest, sum) {
       result[dest].sums[src] = sum;
       if (Object.keys(result[dest].sums).length === result[dest].count) {
         grunt.file.write(dest, JSON.stringify(result[dest].sums));
