@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# 1593372220 Sun, 28 Jun 2020 12:23:40 -0700
+
+CACHE:
+manifest.json?rnd=1593372220
+cache.manifest?rnd=1593372220
+sgp.appcache?rnd=1593372220
+manifest.webmanifest?rnd=1593372220
+upup.min.js?rnd=1593372220
+upup.sw.min.js?rnd=1593372220
+appcache_loader.html?rnd=1593372220
+
+NETWORK:
+*
+
+FALLBACK:
+/ https://mtco.github.io/supergenpass/mobile/?ref=offline&status=offline
