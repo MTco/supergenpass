@@ -1,17 +1,74 @@
-CACHE MANIFEST
-# 1593372220 Sun, 28 Jun 2020 12:23:40 -0700
-
-CACHE:
-manifest.json?rnd=1593372220
-cache.manifest?rnd=1593372220
-sgp.appcache?rnd=1593372220
-manifest.webmanifest?rnd=1593372220
-upup.min.js?rnd=1593372220
-upup.sw.min.js?rnd=1593372220
-appcache_loader.html?rnd=1593372220
-
-NETWORK:
-*
-
-FALLBACK:
-/ https://mtco.github.io/supergenpass/mobile/?ref=offline&status=offline
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"lang": "English",
+	"dir": "ltr",
+	"name": "SuperGenPass",
+	"short_name": "SGP",
+	"start_url": "https://mtco.github.io/supergenpass/mobile/?ref=web_app_manifest",
+	"display": "standalone",
+	"orientation": "any",
+	"scope": "../",
+	"background_color": "#ff4500",
+	"theme_color": "forestgreen",
+	"icons": [
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@36x36.png",
+			"sizes": "36x36",
+			"type": "image/png",
+			"density": 0.75
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@48x48.png",
+			"sizes": "48x48",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@72x72.png",
+			"sizes": "72x72",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@96x96.png",
+			"sizes": "96x96",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@114x114.png",
+			"sizes": "114x114",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@144x144.png",
+			"sizes": "144x144",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"density": 1.0
+		},
+		{
+			"src":"https://mtco.github.io/supergenpass/assets/img/sgp@650x650.png",
+			"sizes": "650x650",
+			"type": "image/png",
+			"density": 1.0
+		}
+	],
+	"prefer_related_applications":false,
+	"related_applications": [{
+		"platform": "web"
+	}]
+}
