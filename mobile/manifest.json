@@ -5,10 +5,10 @@
 	"dir": "ltr",
 	"name": "SuperGenPass",
 	"short_name": "SGP",
-	"start_url": "https://mtco.github.io/supergenpass/mobile/?ref=web_app_manifest",
+	"start_url": "/?ref=web_app_manifest",
 	"display": "standalone",
 	"orientation": "any",
-	"scope": "/mtco.github.io/supergenpass/",
+	"scope": "/",
 	"background_color": "#ff4500",
 	"theme_color": "forestgreen",
 	"icons": [
