@@ -74,12 +74,12 @@
 				UpUp.addSettings({ "assets": ['upup.min.js?rnd=1593372220', 'upup.sw.min.js?rnd=1593372220', 'appcache_loader.html#rnd=1593372220'] });
 				UpUp.addSettings({ "service-worker-url": "https://mtco.github.io/supergenpass/mobile/upup.sw.min.js" });
 				UpUp.start();
-			}catch(opts.err){}
+			} catch(err) {}
 			try {
-				/*l=this.document.documentElement;*/
+				/*opts.l=this.document.documentElement;*/
 				opts.l = opts.uw.document.documentElement;
 				opts.l.className = opts.l.className.replace(/\bno-js\b/, '') + ' js';
-			}catch(opts.err){}
+			} catch(opts.err){}
 		})( { uw:window, err:null } );
 	</script>	
 	<script charset="utf-8" type="text/javascript" crossorigin="anonymous">
