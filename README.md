@@ -39,7 +39,7 @@ are? Do you like the idea of using a slightly quirky password solution? You
 SuperGenPass development requires [Grunt][grunt]:
 
 ```shell
-git clone https://github.com/chriszarate/supergenpass.git && cd supergenpass
+git clone https://github.com/mtco/supergenpass.git && cd supergenpass
 npm install
 grunt
 ```
@@ -69,7 +69,7 @@ are not reviewed and compatibility is not guaranteed.
 [saucelabs-status]: https://saucelabs.com/browser-matrix/supergenpass.svg
 [saucelabs]: https://saucelabs.com/u/supergenpass
 [faq]: https://github.com/chriszarate/supergenpass/wiki/FAQ
-[grunt]: http://gruntjs.com
+[grunt]: https://gruntjs.com
 [gp]: https://github.com/chriszarate/genpass
-[gplv2]: http://www.gnu.org/licenses/gpl-2.0.html
+[gplv2]: https://www.gnu.org/licenses/gpl-2.0.html
 [implementations]: https://github.com/chriszarate/supergenpass/wiki/Implementations
